@@ -1,0 +1,33 @@
+void main() {
+  print("Fahim's Marksheet");
+  var totalMarks = 500;
+  
+  num chemistry = 80;
+  num maths = 70;
+  num physics = 80;
+  num science = 95;
+  num urdu = 100;
+  
+  var obtained = chemistry + maths + physics + science + urdu;
+  print("500 mien se $obtained marks haye mzzy");
+  
+  var percentage = obtained/totalMarks * 100;
+  
+  print("Zindagi me pehli baar:) $percentage %");
+  
+  if (percentage > 90) {
+    print("A+ grade");
+  } else if (percentage >= 80) {
+    print("A grade");
+  } else if (percentage >= 70) {
+    print("B grade");
+  } else if (percentage >= 60) {
+    print("C grade");
+  } else if (percentage >= 50) {
+    print("D grade");
+  } else if (percentage >= 40) {
+    print("E grade");
+  } else {
+    print("Pass");
+  }
+}
